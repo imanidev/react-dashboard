@@ -8,7 +8,7 @@ const Visitors = () => {
     }
 
     return (
-    <div>
+    <div className='Counter'>
     <h1>Counter: {count}</h1>
     <button onClick={incrementCount}>Click Me!</button>
     </div>
