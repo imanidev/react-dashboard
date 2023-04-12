@@ -1,5 +1,5 @@
 import React from 'react'
-import Visitors from './Components/Visitors'
+import Visitors from './Components/Counter'
 import './App.css'
 import Reviews from './Components/Reviews';
 

@@ -1,7 +1,7 @@
 import React from 'react' 
 import { useState } from 'react' // This is a hook
 
-const Visitors = () => {
+const Counter = () => {
     const [count, setCount] = useState(0); 
     const incrementCount = () => {
         setCount(count + 1);
@@ -15,4 +15,4 @@ const Visitors = () => {
 )
 }
 
-export default Visitors
+export default Counter
