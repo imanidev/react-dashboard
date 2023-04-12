@@ -31,8 +31,8 @@ function Reviews() {
     }
   ];
 
-  const reviews = reviewsData.map((review) => (
-    <div>
+  const reviews = reviewsData.map((review,index) => (
+    <div key={index}> {/* use the curly braces to insert JS into JSX*/}
       <h3>{review.name}</h3>
       <p>{review.comment}</p>
       <p>Rating: {review.rating}</p>
