@@ -41,7 +41,7 @@ function Reviews() {
   ));
 
   return (
-    <div>
+    <div className='Reviews'>
       <h2>Reviews</h2>
       {reviews}
     </div>
