@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import Visitors from './Components/Counter'
+import Visitors from './Components/Visitors'
 import Reviews from './Components/Reviews';
 import AverageRating from './Components/Average_Rating';
 import Sidebar from './Components/Sidebar';
@@ -17,7 +17,6 @@ function App() {
       <Sidebar />
       <SentimentAnalysis />
       <Counter />
-      
     </div>
   )
 }

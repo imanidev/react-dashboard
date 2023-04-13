@@ -3,16 +3,15 @@ import React from 'react'
 function Reviews() {
   const reviewsData = [
     { 
-
       name: "John Q.",
-      comment: "This is a great product!",
+      comment: "Amazing product!",
       rating: 4.5,
       city: "New York"
     },
     {
   
       name: "Imani R.",
-      comment: "Changed my life! Highly recommend!",
+      comment: "Changed my life!",
       rating: 5.0,
       city: "Atlanta"
     },
@@ -20,29 +19,29 @@ function Reviews() {
       name: "Jasmine B.",
       comment: "I love this product!",
       rating: 4.0,
-      city: "Salt Lake City"
+      city: "San Francisco"
     },
     
     {
       name: "Trevor S.",
-      comment: "It's okay. I don't really like it.",
+      comment: "It's okay.",
       rating: 3.0,
-      city: "New York"
+      city: "Seattle"
     }
   ];
 
   const reviews = reviewsData.map((review,index) => (
-    <div key={index}> {/* use the curly braces to insert JS into JSX*/}
+    <div key={index} className='review-container'> {/* use the curly braces to insert JS into JSX*/}
       <h3>{review.name}</h3>
       <p>{review.comment}</p>
-      <p>Rating: {review.rating}</p>
+      <p><b>Rating:</b>{review.rating}</p>
       <p><b>City:</b> {review.city }</p>
     </div>
   ));
 
   return (
     <div className='Reviews'>
-      <h2>Reviews</h2>
+      <h2 className='reviewsHeader'>Reviews</h2> 
       {reviews}
     </div>
   );

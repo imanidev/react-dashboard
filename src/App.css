@@ -1,9 +1,9 @@
 .App {
     width: 100vw;
     height: 100vh;
-    display:flex
-    
+    display: flex
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -13,18 +13,42 @@ body {
 }
 
 .Counter {
-  
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 3px solid black;
     width: 35%;
 }
 
 .Reviews {
-  
+
     display: flex;
-    border: 1px solid black;
-    padding:20px
+    border: 3px solid black;
+    padding: 20px
+}
+
+.Visitors {
+
+    display: flex;
+    border: 3px solid black;
+    padding: 20px
+}
+
+.review-container {
+ 
+    align-items: center;
+    width: 35%;
+    text-align: center;
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: 5px;
+}
+.reviewsHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
